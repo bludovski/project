@@ -1,0 +1,98 @@
+body{
+    overflow-x: hidden;
+}
+.nav-hover{
+	font-family: "manrope";
+	font-weight: 300;
+	transition: 0.3s;
+}
+.nav-brand{
+	font-family: "eb garamont";
+}
+.nav-hover:hover{
+	color: #dea27a;
+}
+.navbar {
+	background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.aboutcon{
+    margin-top: 100px;
+}
+.abouth{
+    font-family: "gb garamont";
+    font-size: 23px;
+    font-style: italic;
+    color: #414141;
+}
+.aboutp{
+    font-family: "manrope";
+    font-weight: 200;
+    color: #414141;
+}
+.bigletter{
+    font-size: 100px;
+}
+.containers{
+    padding-left: 100px;
+    padding-bottom: 60px;
+    margin-top: 200px;
+}
+.footer{
+    display: flex;
+}
+.garamont{
+    font-family: "gb garamont";
+    font-style: italic;
+    font-size: 16px;
+    color: #414141;
+}
+.bookbutton{
+    background-color: #fff;
+    border: 1px solid #dea27a;
+    height: 60px;
+    width: 200px;
+    transition: 0.3s;
+}
+.bookbutton:hover{
+    background-color: #dea27a;
+    color: #fff;
+}
+
+
+@media (min-width: 991px) {
+	.spec {
+		display: none;
+	}
+}
+@media (max-width: 991px){
+    .containers{
+        margin-top: 30px;
+    }
+}
+@media (max-width: 991px){
+    .spec2{
+        margin-top: 50px;
+    }
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	opacity: 0; /* Start with 0 opacity for the fade-in */
+	transition: opacity 1s ease-in-out; /* Smooth transition for both fade-in and fade-out */
+}
+
+/* This class will be added to trigger the fade-in effect */
+.fade-in {
+	opacity: 1;
+}
+
+/* This class triggers the fade-out effect */
+.fade-out {
+	opacity: 0;
+}
